@@ -2,13 +2,21 @@
 }
 
 #clock img {
+	position: absolute;
 }
 
 #hour {
+	transform: rotate(15deg);
+	position: relative;
 }
 
 #minute {
+	transform: rotate(30deg);
+	position: relative;
 }
 
+
 #second {
+	transform: rotate(180deg);
+	position: relative;
 }
